@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 header{
  min-height: 40vh;
  min-width: 100vh;
