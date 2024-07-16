@@ -1,0 +1,31 @@
+header{
+ min-height: 40vh;
+ min-width: 100vh;
+ background-image: url("./img/casket.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.marybleich{
+ max-height: 20vh;
+ border-radius: 50%;
+ background-color: black;
+}
+
+ul{
+ display: flex;
+ width: 100%;
+ li{
+ display: flex;
+ flex: 33%;
+ float: left;
+ border: 4px solid black;
+ border-top: none;
+ border-left: none;
+ justify-content: center;
+ }
+ li:last-child{
+  border-right: none;
+ }
+}
