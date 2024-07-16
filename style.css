@@ -3,11 +3,11 @@ body{
 }
 
 header{
- min-height: 40vh;
+ min-height: 50vh;
  min-width: 100vh;
  background-image: url("./img/casket.jpg");
  background-size: cover;
- background-position: center;
+ background-position: bottom 32% right 50%;
  background-repeat: no-repeat;
 }
 
