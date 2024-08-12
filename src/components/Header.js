@@ -1,6 +1,16 @@
+import NavBar from "./NavBar"
+
 const Header = () => {
   return (
-    <h1>Mary's Funeral Ministry</h1>
+    <>
+      <div className="header">
+      </div>
+      <div className="heading navbar">
+        <NavBar />
+      </div>
+        <h1 className="heading">Mary's Funeral Ministry</h1>
+    </>
+
   )
 }
 

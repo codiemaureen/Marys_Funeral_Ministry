@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  display: flex;
+  min-height: 50vh;
+  min-width: 100vh;
+  background-image: url("./images/casket.jpg");
+  background-size: cover;
+  background-position: bottom 32% right 50%;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.heading{
+  display: flex;
+  min-width: 100vh;
+  justify-content: center;
+}
